@@ -73,7 +73,6 @@ const scroll = (direction, genre) => {
                                 >
                                 <div class="p-3">
                                     <h3 class="font-semibold text-sm line-clamp-1 font-[Poppins]">{{ movie.title }}</h3>
-                                    <p>{{ movie.detail }}</p>
                                     <p class="text-xs text-gray-400 release-date">{{ movie.release_date }}</p>
                                 </div>
                             </div>
