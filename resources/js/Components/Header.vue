@@ -6,7 +6,7 @@ import LoginButton from './LoginButton.vue';
 import SigninButton from './SigninButton.vue';
 
 const links = [
-    { name: 'Home', href: '/'},
+    { name: 'Home', href: '/home'},
     { name: 'About', href: '/about'},
     { name: 'Contact', href: '/contact'}
 ]

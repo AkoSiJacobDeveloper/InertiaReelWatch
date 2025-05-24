@@ -19,7 +19,7 @@
     background-color: #060606;
 }
 
-.features, .details, .roles, .message, .footer-links, .header-links, .subtext, .input-data {
+.features, .details, .roles, .message, .footer-links, .header-links, .subtext, .input-data, .release-date {
     font-family: "Rethink Sans", sans-serif;
 }
 

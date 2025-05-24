@@ -10,7 +10,7 @@ import { Head } from '@inertiajs/vue3';
             <h2
                 class="text-xl font-semibold leading-tight text-gray-800"
             >
-                Dashboard
+                Home
             </h2>
         </template>
 

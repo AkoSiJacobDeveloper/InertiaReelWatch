@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', [MovieController::class, 'getRecommendations'])->name('Welcome');
+// Route::get('/home', function(){ return Inertia::render('Home');});
+Route::get('/home',[MovieController::class,'getMovies'])->name('Home');
 Route::get('/about', [PageController::class, 'about'])->name('About');
 Route::get('/contact', [PageController::class, 'contact'])->name('Contact');
 
